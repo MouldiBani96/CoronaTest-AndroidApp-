@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_registir"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pharmacie"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="480dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pharmacie"/>
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layoutInput"
+        android:layout_width="350dp"
+        android:layout_height="630dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/shadow"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="تسجيل الدخول"
+            android:textColor="#E91E63"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/num"
+            android:drawableRight="@drawable/num"
+            android:drawablePadding="20dp"
+            android:text="الإسم" />
+
+        <EditText
+            android:id="@+id/register_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/num"
+
+            android:drawableRight="@drawable/num"
+            android:drawablePadding="20dp"
+            android:text="رقم الهاتف" />
+
+        <EditText
+            android:id="@+id/register_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/num"
+            android:drawableRight="@drawable/num"
+            android:drawablePadding="20dp"
+            android:inputType="number"
+            android:text="العمر" />
+
+        <EditText
+            android:id="@+id/register_adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/num"
+            android:drawableRight="@drawable/num"
+            android:drawablePadding="20dp"
+            android:inputType="number"
+            android:text="المكان" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/chorlya"
+            android:drawableRight="@drawable/chorlya"
+            android:drawablePadding="20dp"
+            android:inputType="textPassword"
+            android:text="كلمة السر" />
+
+        <EditText
+            android:id="@+id/passwordConf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:drawableEnd="@drawable/chorlya"
+            android:drawableRight="@drawable/chorlya"
+            android:drawablePadding="20dp"
+            android:inputType="textPassword"
+            android:text="تأكيد السر" />
+
+
+        <Button
+            android:id="@+id/signinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_background"
+            android:text="دخول"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz.Quiz3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_gradient" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cough" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="250dp"
+        android:paddingTop="30dp"
+        android:paddingRight="16dp"
+        android:text=" سؤال4 : "
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/qestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textfiled"
+        android:drawablePadding="20dp"
+        android:editable="false"
+        android:text="في الأيام القليلة الماضية ، هل كان لديك سعال أو زيادة في السعال المعتاد؟"
+        android:textSize="18sp" />
+    <CheckBox
+        android:id="@+id/idYes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginRight="18dp"
+        android:layoutDirection="rtl"
+        android:text="نعم"
+        android:textSize="24sp" />
+
+
+    <CheckBox
+        android:id="@+id/idNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:layoutDirection="rtl"
+        android:text="لا"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/idNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/btn_backgroundsignup"
+        android:text="التالي"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

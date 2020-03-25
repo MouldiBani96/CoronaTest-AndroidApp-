@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CoronaTest</string>
+    <string-array name="temperateur">
+        <item>37 °C</item>
+        <item>38 °C</item>
+        <item>39 °C</item>
+        <item>40 °C</item>
+        <item>41 °C</item>
+        <item>42+°C</item>
+    </string-array>
+</resources>
